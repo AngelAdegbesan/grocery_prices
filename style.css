@@ -25,6 +25,15 @@ body {
     padding: 5px;
 }
 
+img {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    /* I got this from W3schools online*/
+}
+
 #neighborhoods {
     display: flex;
     flex-wrap: wrap;
